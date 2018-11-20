@@ -1,6 +1,6 @@
 {
-  "name": "sample",
-  "version": "0.0.1",
+  "name": "first",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "google-map-react": "^1.1.0",
@@ -27,24 +27,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0"
-  },
-  "author": "RAja",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rajarider/reactjs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rajarider/reactjs/issues"
-  },
-  "homepage": "https://github.com/rajarider/reactjs#readme",
-  "keywords": [
-    "first",
-    "project"
   ]
 }
