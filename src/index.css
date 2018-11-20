@@ -1,0 +1,129 @@
+body {
+  background-color: #FFCC00;
+  padding: 0px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  
+}
+.navbarWrap{
+    background-color: #111;
+    height: 75px;
+}
+.navbarWrap{
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+
+
+.header{
+  float: right;
+}
+ul.header {
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+/* ul li:nth-child(5){
+  float: right;
+} */
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+ul.header{
+  margin-top: 0px;
+}
+.imageWrap{
+  display: block;
+  position: relative;
+}
+
+/* .thumbnail{
+  width: 225px;
+} */
+.thumbnail a>img, .thumbnail>img {
+  margin-right: 0;
+  margin-left: 0;
+}
+.thumbnail{
+  padding: 0px;
+}
+.caption .name{
+  color:red;
+  text-align: center;
+
+}
+.caption .position{
+  color:blue;
+  text-align: center;
+}
+.carousel-inner{
+  background-color: red;
+}
+.item{
+  height: 300px;
+}
+.item img{
+  width:100%;
+  height: 100%;
+}
+
+/* .navbarWrap .logoImageWrap{
+  margin-left: 20px;
+  /* transform: rotate(90deg); */
+
+
+
+
+/* .navbarWrap{
+  margin-top: 100px;
+} */
+.logoImageWrap{
+  animation: spin 2s 1;
+  display: inline-block;
+  position: absolute;
+  margin-top: 50px;
+  transform-origin: top left;
+  /* transform: rotate(-90deg); */
+
+}
+
+ @keyframes spin {
+  
+  0%   { 
+        transform: rotate(0deg);
+
+  }
+  100% { 
+    transform: rotate(-90deg);
+
+   }
+  
+}
+
+.waterRippleWrap{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+#waterCanvas{
+  width: 50vw;
+}
