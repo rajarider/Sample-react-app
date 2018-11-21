@@ -34,12 +34,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajarider/reactjs.git"
+    "url": "git+https://github.com/rajarider/Sample-react-app.git.git"
   },
   "author": "M.Raja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rajarider/reactjs/issues"
+    "url": "https://github.com/rajarider/Sample-react-app.git/issues"
   },
-  "homepage": "https://github.com/rajarider/reactjs#readme"
+  "homepage": "https://github.com/rajarider/Sample-react-app.git#readme"
 }
