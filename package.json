@@ -34,7 +34,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajarider/Sample-react-app.git.git"
+    "url": "git+https://github.com/rajarider/Sample-react-app.git"
   },
   "author": "M.Raja",
   "license": "ISC",
