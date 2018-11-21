@@ -5,7 +5,7 @@ class Home extends Component {
 
   constructor() {
     super()
-    this.state = { inputValue: 'waiting' }
+    this.state = { inputValue: 'waiting....' }
   }
 
 

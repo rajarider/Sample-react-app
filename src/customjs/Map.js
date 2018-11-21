@@ -35,8 +35,31 @@ export default class  extends Component{
       }
     }
 
-    // const Marker = props => {
-    //   return <div className="SuperAwesomePin"><img style={{width: '50px', height: '50px'}} src={Mark} /></div>
-    // }
 
-           // <Marker lat={this.props.lat} lng={this.props.lng} /> 
+//     user = [{"first_name"=> "raja",  "last_name"=> "rider", "age"=> "0"},
+//   {"first_name"=> "raj",  "last_name"=> "rid", "age"=> "10"}]
+
+// age = [0, 10]
+
+// # a = "5"
+// # a = a.to_i
+
+
+// min_age = age.min
+
+// min_age = min_age.to_s
+
+
+// for i in 0..(user.length - 1)
+
+//   if(user[i]["age"] == min_age)
+
+//     puts user[i]["first_name"]
+
+
+  
+//   end 
+
+
+// end
+

@@ -20,7 +20,6 @@ class Landing extends Component {
 
                 <FormValue name={this.props.location.state}></FormValue>
 
-                <WaterRipple />
 
             </div>
 
@@ -29,20 +28,4 @@ class Landing extends Component {
 
 }
 
-function WaterRipple() {
-
-    return (
-        <div>
-
-            <div className="waterRippleWrap">
-
-                <img src={WaterImage} id="waterImage" />
-                <canvas  id="waterCanvas"></canvas>
-
-            </div>
-        </div>
-    );
-
-
-}
 export default Landing;
