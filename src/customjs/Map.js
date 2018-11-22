@@ -35,5 +35,13 @@ export default class  extends Component{
       }
     }
 
+//  @validated_table = Validate.where("id = ?", 1).first
+//     #  puts "now working #{@validated_table.twsc_validated_id}"
+//        = TwscSession.where('id > ?', @validated_table.twsc_validated_id)
 
+
+//      @updated_upto = twsc_id[i]
+
+//      @update_var = Validate.find(1)
+//      @update_var.update_attribute :twsc_validated_id, @updated_upto
 
