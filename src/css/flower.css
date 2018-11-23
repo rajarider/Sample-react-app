@@ -1,0 +1,30 @@
+.flowerWrap ul {
+    list-style-type: none;
+}
+.singleRoseWrap, .flowerChangeWrap{
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    display: inline-grid;
+    /* width: auto; */
+}
+.singleRoseWrap>span, .flowerChangeWrap>span{
+  margin-top: 1vh;
+}
+
+.flowerWrap ul li:first-child{
+    color: red;
+}
+.flowerWrap ul li:nth-child(2){
+    color: #FF00ED;
+    
+}
+.flowerWrap ul li:nth-child(3){
+    color: black;
+    
+}
+.flowerWrap ul li:nth-child(4){
+    color: green;
+    
+}
+

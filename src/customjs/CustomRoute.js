@@ -10,6 +10,7 @@ import Map from './Map.js';
 import logo from './../images/logo.png';
 import logoR from './../images/logoRotate.png';
 
+import Flow from './Flower.js';
 
 const imgStyle = {
    transform: 'rotate(-90deg)'
@@ -33,6 +34,7 @@ class CustomRoute extends Component {
             <li><NavLink to="/form">Form</NavLink></li>
             <li><NavLink to="/image">Image</NavLink></li>
             <li><NavLink to="/map">Map</NavLink></li>
+            <li><NavLink to="/flower">FLOWER</NavLink></li>
 
           </ul>
           </div>
@@ -45,6 +47,7 @@ class CustomRoute extends Component {
           <Route path="/form" component={Form} />
           <Route path="/image" component={Ima} />
           <Route path="/map" component={Map} />
+          <Route path="/flower" component={Flow} />
 
         </div>
 
