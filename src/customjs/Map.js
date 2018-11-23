@@ -35,31 +35,13 @@ export default class  extends Component{
       }
     }
 
-
-//     user = [{"first_name"=> "raja",  "last_name"=> "rider", "age"=> "0"},
-//   {"first_name"=> "raj",  "last_name"=> "rid", "age"=> "10"}]
-
-// age = [0, 10]
-
-// # a = "5"
-// # a = a.to_i
+//  @validated_table = Validate.where("id = ?", 1).first
+//     #  puts "now working #{@validated_table.twsc_validated_id}"
+//        = TwscSession.where('id > ?', @validated_table.twsc_validated_id)
 
 
-// min_age = age.min
+//      @updated_upto = twsc_id[i]
 
-// min_age = min_age.to_s
-
-
-// for i in 0..(user.length - 1)
-
-//   if(user[i]["age"] == min_age)
-
-//     puts user[i]["first_name"]
-
-
-  
-//   end 
-
-
-// end
+//      @update_var = Validate.find(1)
+//      @update_var.update_attribute :twsc_validated_id, @updated_upto
 
